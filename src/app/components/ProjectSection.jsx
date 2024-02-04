@@ -10,22 +10,22 @@ const ProjectsSection = () => {
     const projectsData = [
         {
           id: 1,
-          title: "React Portfolio Website",
+          title: "Next.js Portfolio Website",
           description: "Project 1 description",
           image: "/images/projects/1.png",
           tag: ["All", "Web"],
           gitUrl: "/",
-          previewUrl: "/",
+          previewUrl: "https://portfolio-gamma-orpin-52.vercel.app/",
         },
-        {
-          id: 2,
-          title: "Potography Portfolio Website",
-          description: "Project 2 description",
-          image: "/images/projects/2.png",
-          tag: ["All", "Web"],
-          gitUrl: "/",
-          previewUrl: "/",
-        },
+        // {
+        //   id: 2,
+        //   title: "Potography Portfolio Website",
+        //   description: "Project 2 description",
+        //   image: "/images/projects/2.png",
+        //   tag: ["All", "Web"],
+        //   gitUrl: "/",
+        //   previewUrl: "/",
+        // },
         {
           id: 3,
           title: "E-commerce Application",
@@ -33,7 +33,7 @@ const ProjectsSection = () => {
           image: "/images/projects/3.png",
           tag: ["All", "Web"],
           gitUrl: "/",
-          previewUrl: "/",
+          previewUrl: "https://e-shop-project-r844cwcgr-muhammad-bilals-projects-de34ca5e.vercel.app/",
         },
         {
           id: 4,
@@ -53,15 +53,15 @@ const ProjectsSection = () => {
           gitUrl: "/",
           previewUrl: "/",
         },
-        {
-          id: 6,
-          title: "Full-stack Roadmap",
-          description: "Project 5 description",
-          image: "/images/projects/6.png",
-          tag: ["All", "Web"],
-          gitUrl: "/",
-          previewUrl: "/",
-        },
+        // {
+        //   id: 6,
+        //   title: "Full-stack Roadmap",
+        //   description: "Project 5 description",
+        //   image: "/images/projects/6.png",
+        //   tag: ["All", "Web"],
+        //   gitUrl: "/",
+        //   previewUrl: "/",
+        // },
       ];
   const [tag, setTag] = useState("All");
   const ref = useRef(null);
