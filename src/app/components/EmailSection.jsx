@@ -36,7 +36,7 @@ const EmailSection = () => {
           <Link href="https://www.linkedin.com/in/muhammad-bilal-2621802a6/">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
-          <Link href="+923086350364">
+          <Link href="tel:+923086350364">
                 <Image src={Phone} alt="Phone" width={50} height={50}/>
           </Link>
           <Link href="mailto:mb03086350364@gmail.com">
