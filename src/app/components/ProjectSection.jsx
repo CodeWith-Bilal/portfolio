@@ -4,65 +4,66 @@ import ProjectCard from "./ProjectCard";
 import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
 
-
-
 const ProjectsSection = () => {
-    const projectsData = [
-        {
-          id: 1,
-          title: "Next.js Portfolio Website",
-          description: "Project 1 description",
-          image: "/images/projects/1.png",
-          tag: ["All", "Web"],
-          gitUrl: "/",
-          previewUrl: "https://portfolio-gamma-orpin-52.vercel.app/",
-        },
-        // {
-        //   id: 2,
-        //   title: "Potography Portfolio Website",
-        //   description: "Project 2 description",
-        //   image: "/images/projects/2.png",
-        //   tag: ["All", "Web"],
-        //   gitUrl: "/",
-        //   previewUrl: "/",
-        // },
-        {
-          id: 3,
-          title: "E-commerce Application",
-          description: "Project 3 description",
-          image: "/images/projects/3.png",
-          tag: ["All", "Web"],
-          gitUrl: "/",
-          previewUrl: "https://e-shop-project-r844cwcgr-muhammad-bilals-projects-de34ca5e.vercel.app/",
-        },
-        {
-          id: 4,
-          title: "Food Ordering Application",
-          description: "Project 4 description",
-          image: "/images/projects/4.png",
-          tag: ["All", "Mobile"],
-          gitUrl: "/",
-          previewUrl: "/",
-        },
-        {
-          id: 5,
-          title: "React Firebase Template",
-          description: "Authentication and CRUD operations",
-          image: "/images/projects/5.png",
-          tag: ["All", "Web"],
-          gitUrl: "/",
-          previewUrl: "/",
-        },
-        // {
-        //   id: 6,
-        //   title: "Full-stack Roadmap",
-        //   description: "Project 5 description",
-        //   image: "/images/projects/6.png",
-        //   tag: ["All", "Web"],
-        //   gitUrl: "/",
-        //   previewUrl: "/",
-        // },
-      ];
+  const projectsData = [
+    {
+      id: 1,
+      title: "Next.js Portfolio Website",
+      description:
+        "My Professional Portfolio realted to Mern Stack Development. I made this with Next.js 14 and Tailwindcss",
+      image: "/images/projects/1.png",
+      tag: ["All", "Web"],
+      gitUrl: "/",
+      previewUrl: "https://portfolio-gamma-orpin-52.vercel.app/",
+    },
+    // {
+    //   id: 2,
+    //   title: "Potography Portfolio Website",
+    //   description: "Project 2 description",
+    //   image: "/images/projects/2.png",
+    //   tag: ["All", "Web"],
+    //   gitUrl: "/",
+    //   previewUrl: "/",
+    // },
+    {
+      id: 3,
+      title: "E-commerce Application",
+      description:
+        "My First Project I made with Next.js 14 mongoDB data base and Firebase to strore images and backend language for this project is Node.js and Express.js for styling Tailwindcss used.",
+      image: "/images/projects/3.png",
+      tag: ["All", "Web"],
+      gitUrl: "/",
+      previewUrl:
+        "https://e-shop-project-r844cwcgr-muhammad-bilals-projects-de34ca5e.vercel.app/",
+    },
+    {
+      id: 4,
+      title: "Food Ordering Application",
+      description: "This is my second project made with Next.js 14 and proramming langugae for this project is node.js and database for this project is MonogoDB picture stored in AWS for styling tailwindcss i use",
+      image: "/images/projects/4.png",
+      tag: ["All", "Mobile"],
+      gitUrl: "/",
+      previewUrl: "/",
+    },
+    {
+      id: 5,
+      title: "React Firebase Template",
+      description: "Authentication and CRUD operations",
+      image: "/images/projects/5.png",
+      tag: ["All", "Web"],
+      gitUrl: "/",
+      previewUrl: "/",
+    },
+    // {
+    //   id: 6,
+    //   title: "Full-stack Roadmap",
+    //   description: "Project 5 description",
+    //   image: "/images/projects/6.png",
+    //   tag: ["All", "Web"],
+    //   gitUrl: "/",
+    //   previewUrl: "/",
+    // },
+  ];
   const [tag, setTag] = useState("All");
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
