@@ -77,8 +77,8 @@ const ProjectsSection = () => {
       description: "",
       image: "/images/projects/7.png",
       tag: ["All", "Mobile"],
-      gitUrl: "",
-      previewUrl: "",
+      gitUrl: "https://github.com/CodeWith-Bilal/Native-RealTimeChatApp",
+      previewUrl: "https://drive.google.com/file/d/1tQWQBJJx2zI2EaCocQf8ts1OleOQxLcb/view?usp=sharing",
     },
   ];
   const [tag, setTag] = useState("All");
