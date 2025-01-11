@@ -62,7 +62,7 @@ const ProjectsSection = () => {
       gitUrl: "https://github.com/CodeWith-Bilal/nft-marketplace",
       previewUrl: "https://nft-marketplace-alpha-one.vercel.app/",
     },
-    {//person finder
+    {
       id: 7,
       title: "Missing Person Finder App",
       description: "This app is build using the React-Native with all functionality like user can register yourself and login also login with Google and data will be store in Firebase user can Add the report about the missing person and can contact via Email",
@@ -70,6 +70,15 @@ const ProjectsSection = () => {
       tag: ["All", "Mobile"],
       gitUrl: "https://github.com/CodeWith-Bilal/Native-personFinder",
       previewUrl: "https://drive.google.com/file/d/146a0-BrmALvTxU5sul3PNnkg3i_fxuN7/view?usp=drivesdk",
+    },
+    {
+      id: 8,
+      title: "Real-Time Chat App",
+      description: "",
+      image: "/images/projects/7.png",
+      tag: ["All", "Mobile"],
+      gitUrl: "",
+      previewUrl: "",
     },
   ];
   const [tag, setTag] = useState("All");
