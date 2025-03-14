@@ -5,9 +5,7 @@ import LinkedinIcon from "../../../public/linkedin-icon.svg";
 import Phone from "../../../public/phone.webp";
 import Image from "next/image";
 import {  Tektur } from "next/font/google";
-// const anton = Song_Myung({ subsets: ["latin"],weight:"400"});
 const owswald = Tektur({ subsets: ["latin"]});
-// import NavLink from "./NavLink";
 
 const Footer = () => {
   return (
@@ -23,10 +21,10 @@ const Footer = () => {
         </div>
 
         <div className="flex justify-end items-end gap-2 pr-10">
-          <Link href="https://github.com/CodeWithMian">
+          <Link href="https://github.com/CodeWith-Bilal">
             <Image src={GithubIcon} alt="Github Icon" width={40} height={40} />
           </Link>
-          <Link href="https://www.linkedin.com/in/muhammad-bilal-2621802a6/">
+          <Link href="https://www.linkedin.com/in/CodeWith-Bilal/">
             <Image
               src={LinkedinIcon}
               alt="Linkedin Icon"
@@ -34,10 +32,10 @@ const Footer = () => {
               height={40}
             />
           </Link>
-          <Link href="+923086350364">
+          <Link href="+923176350364">
             <Image src={Phone} alt="Phone" width={40} height={40} />
           </Link>
-          <Link href="mailto:mb03086350364@gmail.com">
+          <Link href="mailto:codes.tech4@gmail.com">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

@@ -3,45 +3,47 @@ import React, { useTransition, useState } from "react";
 import Image from "next/image";
 import TabButton from "./TabButton";
 
-
-
 const AboutSection = () => {
-    const TAB_DATA = [
-        {
-          title: "Skills",
-          id: "skills",
-          content: (
-            <ul className="list-disc pl-2">
-              <li>React.js</li>
-              <li>Express.js</li>
-              <li>Node.js</li>
-              <li>Next.js</li>
-              <li>MongoDb</li>
-              <li>JavaScript</li>
-            </ul>
-          ),
-        },
-        {
-          title: "Education",
-          id: "education",
-          content: (
-            <ul className="list-disc pl-2">
-              <li>Bachlors in Software Engineering</li>
-              <li>Virtual University of Pakistan</li>
-            </ul>
-          ),
-        },
-        {
-          title: "Certifications",
-          id: "certifications",
-          content: (
-            <ul className="list-disc pl-2">
-              <li>Front-End Develpoper</li>
-              <li>Mern Stack Developer</li>
-            </ul>
-          ),
-        },
-      ];
+  const TAB_DATA = [
+    {
+      title: "Skills",
+      id: "skills",
+      content: (
+        <ul className="list-disc pl-2">
+          <li>React.js</li>
+          <li>React Native</li>
+          <li>Express.js</li>
+          <li>Node.js</li>
+          <li>Next.js</li>
+          <li>MongoDb</li>
+          <li>JavaScript</li>
+          <li>TypeScricpt</li>
+          <li>Redux-Toolkit</li>
+        </ul>
+      ),
+    },
+    {
+      title: "Education",
+      id: "education",
+      content: (
+        <ul className="list-disc pl-2">
+          <li>Bachlors in Software Engineering</li>
+          <li>Virtual University of Pakistan</li>
+        </ul>
+      ),
+    },
+    {
+      title: "Certifications",
+      id: "certifications",
+      content: (
+        <ul className="list-disc pl-2">
+          <li>Full Stack Developer</li>
+          <li>UI/UX Designer</li>
+          <li>Mobile App Developer</li>
+        </ul>
+      ),
+    },
+  ];
   const [tab, setTab] = useState("skills");
   const [isPending, startTransition] = useTransition();
 
@@ -60,10 +62,11 @@ const AboutSection = () => {
           <p className="text-base lg:text-lg">
             I am a full stack web developer with a passion for creating
             interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, MongoDB,
-            Next.js, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+            working with JavaScript, React, React Native, Redux Toolkit,
+            Node.js, Express, MongoDB, Next.js, TypeScript, and Git. I'm a quick
+            learner who is always eager to expand my skill set, and I thrive in
+            collaborative environments, excited to work with others to build
+            innovative and scalable solutions.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton

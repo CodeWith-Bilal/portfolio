@@ -74,8 +74,8 @@ const ProjectsSection = () => {
     {
       id: 8,
       title: "Real-Time Chat App",
-      description: "",
-      image: "/images/projects/7.png",
+      description: "This is a real-time chat application built with React Native, Firebase,Typescricpt, Redux-Toolkit and Gifted Chat. It allows users to create accounts, log in, and chat with other users in real time. The app features a sleek design, seamless functionality, and reliable performance, making it the perfect tool for staying connected with friends and family.",
+      image: "/images/projects/8.png",
       tag: ["All", "Mobile"],
       gitUrl: "https://github.com/CodeWith-Bilal/Native-RealTimeChatApp",
       previewUrl: "https://drive.google.com/file/d/1tQWQBJJx2zI2EaCocQf8ts1OleOQxLcb/view?usp=sharing",

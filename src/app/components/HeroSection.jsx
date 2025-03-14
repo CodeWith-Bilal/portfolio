@@ -5,8 +5,8 @@ import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import Link from "next/link";
 
-import {  Song_Myung } from "next/font/google";
-const anton = Song_Myung({ subsets: ["latin"],weight:"400"});
+import { Song_Myung } from "next/font/google";
+const anton = Song_Myung({ subsets: ["latin"], weight: "400" });
 
 const HeroSection = () => {
   return (
@@ -39,22 +39,30 @@ const HeroSection = () => {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl"><span className={anton.className}>
-            Hi, I'm Muhammad Bilal, I'm a dedicated professional with a passion
-            for web development, specializing in the MERN stack. with expertise
-            in HTML, CSS, React, JavaScript, Next.js, Node.js, Express, and
-            MongoDB I'm a dedicated professional with a passion for web
-            development, specializing in the MERN stack.</span>
+          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
+            <span className={anton.className}>
+              Hello, I’m Muhammad Bilal—a passionate software developer with a
+              strong background in creating reliable web and mobile
+              applications. My expertise lies in the MERN stack, where I use
+              cutting-edge tools like React, React Native, TypeScript, Redux
+              Toolkit, Next.js, Node.js, Express, and MongoDB to build scalable
+              and high-performing solutions. I take pride in writing clean,
+              maintainable code and ensuring top-notch quality in every project
+              I deliver. My goal is to not just meet but surpass client
+              expectations by combining technical skills with a genuine
+              enthusiasm for innovative development. I’d love to bring my
+              experience and dedication to your team or project!
+            </span>
           </p>
           <div>
             <Link
-              href="mailto:mb03086350364@gmail.com"
+              href="mailto:codes.tech4@gmail.com"
               className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white"
             >
               Hire Me
             </Link>
             <Link
-              href="https://drive.google.com/file/d/1huwxMILy8THlWvAuLR92LHPqPz3MEboZ/view?usp=sharing"
+              href="https://drive.google.com/file/d/1tk8A6yiWYyU7VXy62HPK2g9Zhce4fkAH/view?usp=sharing"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-3"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500">
