@@ -80,6 +80,15 @@ const ProjectsSection = () => {
       gitUrl: "https://github.com/CodeWith-Bilal/Native-RealTimeChatApp",
       previewUrl: "https://drive.google.com/file/d/1tQWQBJJx2zI2EaCocQf8ts1OleOQxLcb/view?usp=sharing",
     },
+    {
+      id: 9,
+      title: "HR Management System",
+      description: "HR Management System – A modern, secure platform built with Next.js, MongoDB, Prisma, and NextAuth. Admins get powerful tools to manage employees, track attendance, assign projects, and approve leave requests—all in one intuitive dashboard. Employees enjoy self-service access to their records, attendance history, and leave status, reducing HR back-and-forth. With role-based security, smooth performance, and scalable architecture, this system eliminates outdated workflows. Perfect for businesses wanting an efficient, user-friendly HR solution. 💡🚀",
+      image: "/images/projects/9.png",
+      tag: ["All", "Web"],
+      gitUrl: "https://github.com/CodeWith-Bilal/hr-managment",
+      previewUrl: "https://hr-managment-by-bilal.vercel.app/",
+    },
   ];
   const [tag, setTag] = useState("All");
   const ref = useRef(null);
